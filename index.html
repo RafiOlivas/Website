@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Rafaela Silva Web Developer">
+<meta name="keywords" content="Web, Toronto, Digital Multimedia, Website, Rafaela Silva">
+<meta name="author" content="Rafaela Silva, 2014">
+<meta name="viewport" content="width=device-width" />
+
+<title>Rafaela Olivas</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<script src="js/modernizr.custom.js"></script>
+
+
+<!--FAVICON-->
+<link rel="icon" type="image/png" href="favicon.png" />
+<!--RESET-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<!--FONT AWESOME-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<!--JQUERY-->
+<script src="js/jquery-1.11.1.js"></script>
+
+<!--SMOOTH SCROLL-->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+
+<!--MODERNIZR-->
+<script src="js/modernizr.custom.10731.js"></script>
+<!--SITE STYLES-->
+<link rel="stylesheet" type="text/css" href="css/port-styles.css">
+<link rel="stylesheet" type="text/css" href="css/my-desktop.css" media="screen and (min-width:769px)">
+<link rel="stylesheet" type="text/css" href="css/my-tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
+<link rel="stylesheet" type="text/css" href="css/my-mobile.css" media="screen and (max-width:480px)">
+
+</head>
+
+<body>
+
+<!--HEADER-->
+<header>
+<div class="hellobg"> 
+  <h1 class="olivas">RAFAELA OLIVAS</h1>
+  <p class="frontLine">"Im a Web Designer and Front-end developer"</p>
+  </div>
+  </header>
+ 
+<!--NAV-->
+<nav>
+<ul id="menu">
+  <li><a href="#hello">Hello</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#work">Works</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!--ABOUT-->
+<section id="about">
+  <h2 class="about">ABOUT</h2>
+  <div class="narrowMe"><img id="me" src="images/me.jpg"/></div>
+  <p class="aboutMe">"Im front-end web developer.It`s my challenge to make a fusion of clients wishes 
+    + my own creativity,and deliver this into a unique-great looking interface.</p>
+   
+  <p class="life">Empty</p>
+  
+  <p class="love">"I just love doing something fun and creative!"</p>
+</section>
+
+<!--WORK-->
+<section id="work">
+  <h2 class="work">WORKS</h2>
+ 
+  <ul class="grid swipe-right" id="grid">
+        
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_01_chile/" target="_blank"><img src="images/printscreen/01-image.jpg" alt="img01"><h3>Travel Chile</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_06_cars/" target="_blank"><img src="images/printscreen/02-image.jpg" alt="img02"><h3>Volksvagen Bettle</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_05_recipes/" target="_blank"><img src="images/printscreen/03-image.jpg" alt="img03"><h3>Seafood Paella</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_02_restaurant/" target="_blank"><img src="images/printscreen/04-image.jpg" alt="img04"><h3>Rubaiyat Restauran</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_03_wildlife/" target="_blank"><img src="images/printscreen/05-image.jpg" alt="img05"><h3>Hope For Wildlife</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_09_kizomba/" target="_blank"><img src="images/printscreen/06-image.jpg" alt="img06"><h3>Kizomba</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_07_anims/" target="_blank"><img src="images/printscreen/07-image.jpg" alt="img07"><h3>Diamantina</h3></a></li>
+
+          <li><a href="http://tiw-edu.com/students/rafaela/final/_04_wedding/" target="_blank"><img src="images/printscreen/08-image.jpg" alt="img08"><h3>Wendy & Wayne</h3></a></li>
+
+        </ul>
+</section>
+
+<!--CONTACT-->
+<section id="contact">
+  <h2 class="contact">CONTACT</h2>
+  <iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.ca/form/43494075568264" frameborder="0" style="width:100%; height:565px; border:none;" scrolling="no"></iframe>
+<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;case "collapseErrorPage":if (iframe.clientHeight > window.innerHeight) {iframe.style.height = window.innerHeight + "px";}break;case "reloadPage":window.location.reload();break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script> 
+</section>
+
+<!--FOOTER-->
+<section id="footer">
+  <hr>
+  <li class="pin"><a href="http://www.pinterest.com/rafyoliveira/"><i class="fa fa-pinterest"></i></a></li>
+  <li class="face"><a href="https://www.facebook.com/rafyoliveira"><i class="fa fa-facebook"></i></a></li>
+  <li class="insta"><a href="http://instagram.com/rafyolivas"><i class="fa fa-instagram"></i></a></li>
+  <li class="beha"><a href="https://www.behance.net/search?field=48"><i class="fa fa-behance"></i></a></li>
+  <li class="link"><a href="https://www.linkedin.com/uas/login"><i class="fa fa-linkedin"></i></a></li>
+  <p class="footer">&copy; 2015 RAFAELA SILVA . HANDCRAFTED | ALL RIGHTS RESERVED</p>
+  <br>
+  <div class="logoDown"><img src="images/logo.png" width="200" height="150"/></div>
+</section>
+
+
+<!--STICK NAV--> 
+<script src="js/jquery-1.11.1.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+<script>
+  $(document).ready(function(){
+    $("#menu").sticky({topSpacing:0});
+  });
+</script>
+
+
+<!--JQUERY RAIN-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/colorfinder-1.1.js"></script>
+    <script src="js/gridScrollFx.js"></script>
+    <script>
+      new GridScrollFx( document.getElementById( 'grid' ), {
+        viewportFactor : 0.4
+      } );
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+
+@charset "UTF-8";
+ 
+ /*******MOBILE*******/
+
+
+.hellobg {
+	height: 100vh;
+	background-image: url(../images/front.jpg);
+	background-size:cover;
+	background-position:right center;
+	background-attachment: fixed;
+	position: relative;
+}
+h1.olivas {
+	font-size: 2.5em;
+	font-family: 'Neucha', cursive;
+	color:rgba(42,64,85,1.00);
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	padding-top:50px;
+}
+p.frontLine {
+	font-family: 'Fresca', sans-serif;
+	font-size: 0.9em;
+	margin-top: -10px;
+	text-align: center;
+	color:rgba(208,177,133,1.00);
+	text-shadow: 2px 2px 2px #000000;
+}
+/******NAVIGATION*******/
+
+	
+#nav {
+	height: 50px;
+	width: 100%;
+	font-size: 0.9em;
+	text-align: center;
+	line-height: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#nav ul {
+	list-style: none;
+	mar
+	word-spacing:50px;
+}
+#nav a {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color:rgba(255,255,255,1.00);
+	text-shadow:2px 2px 2px #000000;
+	display: inline;
+}
+#nav a:hover {
+	color:#971417;
+}
+#menu {
+	height: 50px;
+	width: 100%;
+	background-color: rgba(241,217,203,0.6);
+	text-transform: uppercase;
+	margin-right:10px;
+	text-align: right;
+	font-size: 0.7em;
+	line-height: 50px;
+}
+/*********ABOUT*********/
+
+#about {
+	background-color: rgba(255,255,255,1.00);
+	height: 100vh;
+	margin-bottom: 30%;
+}
+.about {
+	font-size: 1.2em;
+	margin-left: 3%;
+	text-align: left;
+	padding: 1px;
+	margin-top: 1%;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+/*p { line-height: 28px; font-size: 13px;  font-family: "Open Sans",sans-serif; font-style: normal; font-weight: 400; }*/
+.aboutMe {
+	text-transform: uppercase;
+	line-height: 20px;
+	font-size: 0.8em;
+	font-weight: 300;
+	margin: 1% 20% 1% 20%;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.life {
+	
+	line-height: 20px;
+	font-size: 0.8em;
+	font-weight: 400;
+	margin: 1% 20% 1% 20%;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.love {
+	text-align: center;
+	line-height: 25px;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.narrowMe {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.narrowMe img {
+	width: 20%;
+	margin-top:100px;
+}
+/***********WORK**************/
+
+#work {
+	
+	background-color: rgba(255,252,248,1.00);
+	padding:0 !important;
+}
+
+.work {
+	font-size: 1.2em;
+	
+	margin: 2%;
+	text-align: left;
+	padding: 1px;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+/***********CONTACT************/
+
+.contact {
+	font-size: 1.1em;
+	margin-left: 3%;
+	text-align: left;
+	padding: 1px;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+/************FOOTER*********/
+
+.footer {
+	color: rgba(109,109,109,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 0.6em;
+	line-height: 20px;
+	text-align: center;
+}
+.pin, .face, .insta, .link, .beha {
+	text-align: center;
+	font-size: 90%;
+}
+i {
+	color: rgba(63,62,62,1.00);
+	position: relative;
+	left: 27%;
+	margin: 3%;
+}
+li a:hover i {
+	color: rgba(245,245,245,1.00);
+	border-radius: 10%;
+}
+.logoDown {
+	position: absolute;
+	left: 30%;
+}
+/*****REUSABLE CLASSES*****/
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+ @import url(http://fonts.googleapis.com/css?family=Fresca|Crushed|Neucha|Rum+Raisin|Patrick+Hand+SC|Annie+Use+Your+Telescope|Sanchez);
+/************GLOBAL*************/
+
+body {
+	font-size: 100%;
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.hellobg {
+	height: 100vh;
+	background-image: url(../images/front.jpg);
+	background-size: cover;
+	background-position: right center;
+	background-attachment: fixed;
+	position: relative;
+}
+h1.olivas {
+	font-size: 4em;
+	font-family: 'Neucha', cursive;
+	color: #F0F0F0;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	padding-top: 160px;
+}
+
+p.frontLine {
+	font-family: 'Fresca', sans-serif;
+	font-size: 0.7em;
+	margin-top: -10px;
+	text-align: center;
+	color:rgba(208,177,133,1.00);
+	text-shadow: 2px 2px 2px #000000;
+}
+/******NAVIGATION*******/
+
+	
+#nav {
+	height: 50px;
+	width: 100%;
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#nav ul {
+	list-style: none;
+	word-spacing: 50px;
+}
+#nav li {
+	display: inline;
+}
+#nav a {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color:rgba(255,255,255,1.00);
+	text-shadow:2px 2px 2px #000000;
+	display: inline-block;
+}
+#nav a:hover {
+	color:rgba(174,7,10,1.00);
+}
+#menu {
+	height: 20px;
+	width: 100%;
+	background-color: rgba(241,217,203,0.6);
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 0.8em;
+	line-height: 50px;
+	z-index: 1;
+}
+
+#menu li {
+	margin: 10px;
+	display: inline;
+}
+#menu a {
+	color: rgba(147,147,147,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	display: inline-block;
+}
+#menu a:hover {
+	color: #D1D175;
+}
+/*********ABOUT*********/
+
+#about {
+	background-color: rgba(255,255,255,1.00);
+	/*height: 100vh;*/
+}
+.about {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1px;
+	margin-top: 1%;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+/*p { line-height: 28px; font-size: 13px;  font-family: "Open Sans",sans-serif; font-style: normal; font-weight: 400; }*/
+.aboutMe {
+	
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 0.9em;
+	font-weight: 500;
+	margin: 1% 20% 1% 20%;
+	padding:0 6% 0 6%;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.life {
+	line-height: 20px;
+	font-size: 0.6em;
+	font-weight: 400;
+	margin: 1% 20% 1% 20%;
+	padding:0 6% 0 6%;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.love {
+	text-align: center;
+	line-height: 30px;
+	font-size: 1em;
+	font-weight: 500;
+	padding:0 6% 0 6%;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.narrowMe {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.narrowMe img {
+	width: 20%;
+	text-align: center;
+	margin-top: 30px;
+}
+/***********WORK**************/
+#work {
+	
+	background-color: rgba(255,252,248,1.00);
+	padding:40px;
+}
+.work {
+	font-size: 2.5em;
+	padding:0 !important;
+	text-align: center;
+	margin-top: -50px;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+/***********CONTACT************/
+#contact {
+	background-color: rgba(255,255,255,1.00);
+	
+}
+.contact {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1px;
+	color: rgba(69,69,69,1.00);
+	font-family: 'Neucha', cursive;
+}
+
+/************FOOTER*********/
+#footer {
+	background-color: rgba(0,0,0,0.5);
+	background-image: url(../images/land.jpng.jpg);
+	background-size: cover;
+	background-position: top center;
+	opacity: 0.6;
+	height: 100vh;
+	line-height: 50%;
+}
+.footer {
+	color: rgba(109,109,109,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 100%;
+	text-align: center;
+}
+li {
+	display: inline;
+}
+.pin, .face, .insta, .link, .beha {
+	text-align:center;
+    display:inline-block;
+	margin:20px; 
+	font-size: 150%;
+}
+i {
+	color: rgba(63,62,62,1.00);
+	
+	
+}
+li a:hover i {
+	color: rgba(245,245,245,1.00);
+	border-radius: 10%;
+}
+.logoDown {
+	width:200px;
+      
+}
+
+/*****REUSABLE CLASSES*****/
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
